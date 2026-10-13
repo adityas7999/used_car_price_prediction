@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load trained ML pipeline
-pipeline = joblib.load("models/car_price_pipeline.pkl")
+pipeline = joblib.load("car_price_pipeline.pkl")
 
 # Page title
 st.title("Used Car Price Prediction")
